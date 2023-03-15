@@ -1,5 +1,5 @@
 {
-  "name": "npm_package2",
+  "name": "console-color-codes-node",
   "version": "1.0.1",
   "description": "A library to clearify your console logs with color",
   "main": "dist/index.js",
