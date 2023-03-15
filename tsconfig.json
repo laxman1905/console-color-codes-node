@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "module": "commonjs", // used for all js/ts, nodejs or reactjs
+      "target": "es2017", // user for all browser
+      "sourceMap": true,
+      "outDir": "./dist", // make a build here
+      "noImplicitAny": true,
+      "declaration": true,
+      "strict": true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+  }

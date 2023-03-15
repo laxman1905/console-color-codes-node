@@ -1,0 +1,29 @@
+{
+  "name": "npm_package2",
+  "version": "1.0.0",
+  "description": "A library to clearify your console logs with color",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laxman1905/console-color-codes-node.git"
+  },
+  "keywords": [
+    "console logs color",
+    "clarify of console logs with colors"
+  ],
+  "author": "Laxman Kumar Das <kr.laxman19@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laxman1905/console-color-codes-node/issues"
+  },
+  "homepage": "https://github.com/laxman1905/console-color-codes-node#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "files": ["dist/**/*"]
+}
